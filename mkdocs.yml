@@ -1,0 +1,43 @@
+site_name: Placenote Documentation
+pages:
+- Overview: 'index.md'
+- Our Manifesto: 'manifesto.md'
+- Unity SDK Docs: 'unity/about.md'
+- Swift SDK Docs: 'swift/about.md'
+- Unity SDK:
+  - 'Before you begin': 'unity/about.md'
+  - 'Try the sample app': 'unity/install-sample.md'
+  - 'Build instructions': 'unity/build-instructions.md'
+  - 'How Placenote works': 'unity/how-placenote-works.md'
+  - 'Using the Simulator': 'unity/using-the-simulator.md'
+  - 'Guides':
+    - 'Create your first map': 'unity/guides/create-your-first-map.md'
+    - 'Migrating to SDK 1.6.8': 'unity/guides/migrating-to-sdk-1-6-8.md'
+
+- Swift SDK:
+  - 'Before you begin': 'swift/about.md'
+  - 'Try the sample app': 'swift/install-sample.md'
+  - 'Build instructions': 'swift/build-instructions.md'
+  - 'How Placenote works': 'swift/how-placenote-works.md'
+  - 'Tutorials':
+    - 'Installing Placenote': 'swift/installing-placenote.md'
+    - 'Saving and loading a map': 'swift/save-and-load-map.md'
+
+theme:
+  name: 'material'
+  logo: 'img/logo.png'
+  favicon: 'img/logo.png'
+  palette:
+    primary: 'blue'
+    accent: 'indigo'
+  feature:
+    tabs: true
+
+repo_name: 'Dev Portal Login'
+repo_url: 'https://developer.placenote.com'
+
+markdown_extensions:
+  - codehilite
+  - admonition
+
+extra_javascript: ['javascripts/drift.js']
