@@ -16,14 +16,17 @@ The guides in this section are designed to help you learn Placenote SDK through 
 2. In your *Assets* folder, Navigate to *Assets > Placenote > Prefabs* and drag *PlacenoteCameraManager* **and** *PlacenoteMap* into your scene.
 3. Now in your scene hierarchy, click on *PlacenoteCameraManager* and in the inspector panel that opens up, add your API key to the API key box under the *LibPlacenote* script element.
 
+![Step 2: configure scene elements](../../img/unity/save-a-cube/step2.png)
+
 ## Step 3: Display a simple cube in AR
-In the rest of this tutorial, we'll first build a very basic ARKit app that displays a cube at (0,0,0) and then modify that app to save the cube in a persistent location.
+In the rest of this tutorial, we'll first build a very basic ARKit app that displays a cube at (0,0,0) and then modify the app to persistently load that cube at the same location every time the app is launched.
 
-Let’s build a simple ARKit app to render a cube at (0,0,0) when a button is clicked. Add a canvas element to your scene and add a simple UI button to it. Now create a script called “MainController” and add this code to it.
+To start, add a canvas element to your scene and add a simple UI button to it. Now create a script called “MainController” and add this code to it.
 
-!!! warning
+!!! note
     Note that you need to add this script below as a component to your canvas element and link the UI Button with the `OnDropShapeClick()` function in the script.
 
+![Step 3: Display a simple cube in AR](../../img/unity/save-a-cube/step3.png)
 
 ``` csharp
 using System.Collections;
@@ -149,15 +152,18 @@ public void OnSaveMapClick ()
 }
 ```
 
+Notice in the screenshot below that we have printed the mapID of the saved map to the console. We will use that map ID in the next step, when we reload the map.
+
+![Step 3: Save a map](../../img/unity/save-a-cube/step4.png)
+
 ### Reloading a map
-To Load a map, let’s create a third UI Button on the canvas and call it “Load Map”. We’ll write a function that takes a previously created map ID and loads the corresponding map when the button is clicked. We’ll generate this map Id by printing the save map id in the LibPlacenote.Instance.SaveMap() function when we run the app.
+To reload a map, let’s create a third UI Button on the canvas and call it “Load Map”. We’ll write a function that takes a previously created map ID and loads the corresponding map when the button is clicked. We'll copy the mapID we printed to the console when we saved the map and paste it in "Paste Map ID here" line below.
 
 ``` csharp
 public void OnLoadMapClicked ()
 {
     if (!LibPlacenote.Instance.Initialized()) {
         Debug.Log ("SDK not yet initialized");
-        ToastManager.ShowToast ("SDK not yet initialized", 2f);
         return;
     }
 
@@ -178,6 +184,8 @@ public void OnLoadMapClicked ()
 }
 ```
 
+![Step 2: Loading a map](../../img/unity/save-a-cube/step5.png)
+
 Finally we need to complete the onStatusChange() function to render our cube back into the scene when Placenote localizes the map.
 
 Add this to your onStatusChange function you created earlier.
@@ -190,8 +198,7 @@ public void OnStatusChange (LibPlacenote.MappingStatus prevStatus, LibPlacenote.
             Debug.Log ("Localized!");
             GameObject shape = GameObject.CreatePrimitive (PrimitiveType.Cube);
             shape.transform.position = new Vector3 (0.0f, 0.0f, 0f);
-            shape.transform.localScale = new Vector3 (0.2f, 0.2f, 0.2f);
-            shape.GetComponent().material.color = new Color(0.5f,1,1);
+            shape.transform.localScale = new Vector3 (0.3f, 0.3f, 0.3f);
     }
 }
 ```
