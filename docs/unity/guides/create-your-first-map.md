@@ -1,7 +1,5 @@
-# Create your first map
-The guides in this section are designed to help you learn Placenote SDK through step by step tutorials, with increasing complexity. At the end of this section you will be able to quickly build and deploy Placenote apps from scratch. Alternatively, feel free to use the sample app we compiled [in the previous section](../install-sample.md) as a starting point for your Unity projects. Let's get started!
-
-**This first tutorial will walk you though an example of how to create, save and reload a single map with some basic AR content (a Cube) in a physical location.**
+# Save and load your first map
+This first tutorial will walk you though an example of how to create, save and reload a single map with some basic AR content in a physical location. To follow this tutorial, open the *SaveAndLoadAMap* Scene in the *Assets/Examples* folder. You will find that the *SaveAndLoadAMap.cs* script has been attached to the Canvas object in the Scene Hierarchy. Open that script file as well. 
 
 ## Step 1: Import Placenote into a new Unity project
 1. Create a new Unity 3D project

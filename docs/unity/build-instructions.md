@@ -19,12 +19,11 @@ Click *Build* and choose  a folder name (such as "App") to save the generated XC
 ## Step 2: Open the XCode project
 In the generated XCode project folder and open the **Unity-iPhone.xcodeproj** file. Connect your iOS device to your computer and select it as the target device. Then, in the General Tab, set your Provisioning Profile, and set the Deployment target to iOS 11 or higher.
 
-!!! warning
-    We have tested Placenote with iOS 11.x only. We do not recommend using Placenote with iOS 12 Beta.
-
 ## Step 3: Build the XCode project
+And that's it!! Click *Build* (The play button in XCode) and let the app build to your iOS device. If everything goes well you should see the app running on your device. If you experience any issues in this process, check out the troubleshooting guide below. If you're still having issues, [message us on slack](https://placenote.com/slack).
 
-And that's it!! Click *Build* (The play button in XCode) and let the app build to your iOS device. If everything goes well you should see the app running on your device. If you see the app running on your device and the camera feed starts, continue to the next section - [How Placenote Works](how-placenote-works.md).
+## Step 4: Create a few maps
+Once you're able to run the sample app with API key, create and save a few maps with some shapes. In the next section, we'll look at how to manage your maps in the Placenote developer portal.
 
 ### Troubleshooting common errors
 

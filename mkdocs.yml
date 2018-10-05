@@ -6,11 +6,13 @@ pages:
 - Swift SDK Docs: 'swift/about.md'
 - Unity SDK:
   - 'Before you begin': 'unity/about.md'
-  - 'Try the sample app': 'unity/install-sample.md'
+  - 'Try the demo app': 'unity/install-sample.md'
+  - 'Build the SDK sample': 'unity/build-sample-app.md'
   - 'Build instructions': 'unity/build-instructions.md'
-  - 'How Placenote works': 'unity/how-placenote-works.md'
-  - 'Using the Simulator': 'unity/using-the-simulator.md'
+  - 'Managing your maps': 'unity/managing-your-maps.md'
+  - 'Using the simulator': 'unity/using-the-simulator.md'
   - 'Guides':
+    - 'Introduction to this section': 'unity/guides/introduction-to-guides.md'
     - 'Create your first map': 'unity/guides/create-your-first-map.md'
     - 'Migrating to SDK 1.6.8': 'unity/guides/migrating-to-sdk-1-6-8.md'
 

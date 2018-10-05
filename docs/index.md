@@ -42,11 +42,9 @@ We're all in this together and the Placenote community is here to help you at ev
 
 Of course, you can also just <a class="drift-open-chat" href="http://docs.drift.com/">send us a quick chat message</a> right now. If we're online, we'll reply right away. If not, make sure to **add your email** so we can get in touch with you.
 
-## Getting Started
+## Quick Start
 
-It's time to start building. To get started, choose your platform.
-
-### Choose your platform
+Want to jump right in? To get started, choose your **development platform**.
 
 [![image](img/unitylogo.png)](unity/about.md)
 [![image](img/ioslogo.png)](swift/about.md)

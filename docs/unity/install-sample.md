@@ -1,19 +1,21 @@
-# Try the sample app
-Let's get started by downloading and testing out the Placenote sample app. This will let you verify that your set up meets the system requirements and will also help you understand what to expect when building apps with Placenote.
+# Try the demo app
+Let's get started by downloading and testing out the Placenote demo app. This will let you verify that your device meets the system requirements and will also help you understand how Placenote works.
 
-## Step 1: Download the SDK bundle
-Download the [latest unity package.](https://placenote.com/unitysample)
+## Step 1. Download the app on your iPhone or iPad
+Download the [latest demo app on your iOS device](http://placenote.com/demo). Open this link in Safari on your device and follow the instructions to install the app.
 
-## Step 2: Import into Unity
-1. Create a new project in Unity and open it.
-2. In the Unity Menu, go to Assets > Import Package > Custom Package and select the **.unitypackage** file to import.
-3. In your project window, under the Assets folder, find Placenote > Scenes and double click on the Sample Scene.
+## Step 2. Launch and test the app
+This app will let you scan an area and drop simple persistent 3D objects around you to understand how Placenote SDK works. Here's how you can test the app:
 
-## Step 3: Add your API key
-In the Scene Hierarchy, select PlacenoteCameraManager and add your API key to the LibPlacenote Component in the Inspector Panel.
+* Click "New Map". Start scanning the space around you to capture green feature points. As you do this, tap the screen to add random 3D shapes.
+* Click "Save Map" to save and upload the map.
+* Click "Load Map" to relocalize and reload your shapes in the right positions
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/87MYtzMveZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 !!! tip
-    Don't have your API key? [Get it on your dev portal](https://developer.placenote.com).
+    Make sure you're connected to the internet on the device when you launch the app.
 
-## Step 4: Build and run the project
-Read the [build instructions page](build-instructions.md) to run this project on an iOS device.
+Once you have tried the app and understand how Placenote works, you're ready for the next step. It's now time to build and run your first Placenote app!
