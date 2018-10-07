@@ -9,7 +9,7 @@ This documentation will show you how to use Placenote SDK to build Unity AR apps
 ## How to use this documentation
 1. Quick start: [Download and test the sample app](install-sample.md)
 2. Follow the step-by-step tutorials to build a Unity sample app
-3. Continue learning about Placenote  in the [Guides](guides/create-your-first-map.md) section
+3. Continue learning about Placenote  in the [Guides](tutorials/create-your-first-map.md) section
 
 ## Supported AR devices
 

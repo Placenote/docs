@@ -11,11 +11,15 @@ pages:
   - 'Build instructions': 'unity/build-instructions.md'
   - 'Managing your maps': 'unity/managing-your-maps.md'
   - 'Using the simulator': 'unity/using-the-simulator.md'
-  - 'Guides':
-    - 'Introduction to this section': 'unity/guides/introduction-to-guides.md'
-    - 'Create your first map': 'unity/guides/create-your-first-map.md'
-    - 'Migrating to SDK 1.6.8': 'unity/guides/migrating-to-sdk-1-6-8.md'
-
+  - 'Tutorials':
+    - 'Introduction to Tutorials': 'unity/tutorials/introduction-to-guides.md'
+    - 'Configure a new scene': 'unity/tutorials/configure-new-scene.md'
+    - 'Create your first map': 'unity/tutorials/create-your-first-map.md'
+    - 'Extending a loaded map': 'unity/tutorials/extending-a-map.md'
+    - 'Saving Meta Data': 'unity/tutorials/saving-meta-data.md'
+    - 'Integrate with ARKit': 'unity/tutorials/arkit-integration.md'
+    - 'List and search maps': 'unity/tutorials/list-and-search-maps.md'
+  - 'Migrating to SDK 1.6.8': 'unity/tutorials/migrating-to-sdk-1-6-8.md'
 - Swift SDK:
   - 'Before you begin': 'swift/about.md'
   - 'Try the sample app': 'swift/install-sample.md'
@@ -41,5 +45,6 @@ repo_url: 'https://developer.placenote.com'
 markdown_extensions:
   - codehilite
   - admonition
+  - meta
 
 extra_javascript: ['javascripts/drift.js']

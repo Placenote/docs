@@ -9,6 +9,8 @@ Download the [latest unity package.](https://placenote.com/unitysample)
 2. In the Unity Menu, go to Assets > Import Package > Custom Package and select the **.unitypackage** file to import.
 3. In your project window, under the Assets folder, find Placenote/Examples/RandomShapes and double click on the RandomShapes Scene.
 
+![Open and build Random Shapes sample](../img/unity/randomshapes-build.png)
+
 ## Step 3: Add your API key
 In the Scene Hierarchy, select PlacenoteCameraManager and add your API key to the LibPlacenote Component in the Inspector Panel.
 
