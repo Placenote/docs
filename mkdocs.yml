@@ -19,6 +19,11 @@ pages:
     - 'Saving Meta Data': 'unity/tutorials/saving-meta-data.md'
     - 'Integrate with ARKit': 'unity/tutorials/arkit-integration.md'
     - 'List and search maps': 'unity/tutorials/list-and-search-maps.md'
+  - 'Tips and Tricks':
+    - 'Working with Point Clouds': 'unity/tips-and-tricks/working-with-pointclouds.md'
+    - 'Checking for initialization': 'unity/tips-and-tricks/checking-for-initialization.md'
+    - 'Reporting errors': 'unity/tips-and-tricks/reporting-errors.md'
+    - 'Placenote Statuses': 'unity/tips-and-tricks/placenote-statuses.md'
   - 'Migrating to SDK 1.6.8': 'unity/tutorials/migrating-to-sdk-1-6-8.md'
 - Swift SDK:
   - 'Before you begin': 'swift/about.md'

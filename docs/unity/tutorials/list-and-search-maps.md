@@ -21,15 +21,15 @@ In *PlacenoteSampleView.cs*, take a look at the `OnListMapClick ()` function. Wh
 ``` csharp
 LibPlacenote.Instance.ListMaps ((mapList) => {
 
-    // callback handler function. Access maps here.
-    foreach (LibPlacenote.MapInfo mapInfoItem in mapList) {
+  // callback handler function. Access maps here.
+  foreach (LibPlacenote.MapInfo mapInfoItem in mapList) {
 
-        Debug.Log("Map ID: " + mapInfoItem.placeId);
+      Debug.Log("Map ID: " + mapInfoItem.placeId);
 
-        if (mapInfoItem.metadata.userdata != null) {
-            Debug.Log(mapInfoItem.metadata.userdata.ToString (Formatting.None));
-        }
-}
+      if (mapInfoItem.metadata.userdata != null) {
+          Debug.Log(mapInfoItem.metadata.userdata.ToString ());
+      }
+   }
 
 });
 ```
@@ -43,7 +43,7 @@ public class MapInfo
 }
 ```
 
-## Delete a map
+## Deleting a map
 
 Refer to the `OnDeleteMapClicked ()` function in *PlacenoteSampleView.cs*. To delete a map with a know map ID, we can call `LibPlacenote.Instance.DeleteMap()` as shown below.
 
@@ -57,3 +57,35 @@ LibPlacenote.Instance.DeleteMap (mapId, (deleted, errMsg) => {
   }
 });
 ```
+
+## Searching for maps
+Placenote provides several options for searching maps based on name, location, time of creation or arbitrary `userdata` strings stored in the metadata. The search you use will depend on the needs of your application.
+
+In *PlacenoteSampleView.cs*, you will find one example of map search based on GPS location. The search is implemented in the `OnRadiusSelect()` function that is activated with the distance slider is modified. We will filter maps based on their distance from the users location using the `LibPlacenote.Instance.SearchMaps()` function.
+
+``` csharp
+LibPlacenote.Instance.SearchMaps(latitude, longitude, radiusSearch,
+		(mapList) => {
+
+    // callback handler function. Access maps here.
+    foreach (LibPlacenote.MapInfo mapInfoItem in mapList) {
+
+        Debug.Log("Map ID: " + mapInfoItem.placeId);
+
+        if (mapInfoItem.metadata.userdata != null) {
+            Debug.Log(mapInfoItem.metadata.userdata.ToString ());
+        }
+     }
+});
+```
+
+Note that the return type of `SearchMaps()` is identical to that of `ListMaps()`.
+
+Other variations of SearchMaps include:
+
+* `SearchMaps(string name, Action<MapInfo[]> listCb)`
+* `SearchMaps(DateTime newerThan, DateTime olderThan, Action<MapInfo[]> listCb)`
+* `SearchMapsByUserData(string userdataQuery, Action<MapInfo[]> listCb)`
+* `SearchMaps (MapSearch search, Action<MapInfo[]> listCb)`
+
+The last variation lets you create a `MapSearch` query object that can contain multiple search options at once.
