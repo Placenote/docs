@@ -19,6 +19,7 @@ pages:
     - 'Saving Meta Data': 'unity/tutorials/saving-meta-data.md'
     - 'Integrate with ARKit': 'unity/tutorials/arkit-integration.md'
     - 'List and search maps': 'unity/tutorials/list-and-search-maps.md'
+    - 'Spatial Capture Toolkit': 'unity/tutorials/spatial-capture.md'
   - 'Tips and Tricks':
     - 'Working with Point Clouds': 'unity/tips-and-tricks/working-with-pointclouds.md'
     - 'Checking for initialization': 'unity/tips-and-tricks/checking-for-initialization.md'
