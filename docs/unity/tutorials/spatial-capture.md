@@ -7,7 +7,9 @@ When creating persistent scenes in a physical location, you cannot always be the
 ## Download the Spatial Capture app
 The Placenote Capture app is currently in beta, you can download it here.
 
-<a href=""><img src="../../../img/unity/spatial-capture/spatial-capture-logo.png"></a>
+<a href="https://placenote.com/capture"><img src="../../../img/unity/spatial-capture/spatial-capture-logo.png"></a>
+
+You will need to open the link above on your mobile device. Or visit [placenote.com/capture](https://placenote.com/capture).
 
 ## Capturing a scan
 To start, open the Placenote Capture app to create a map. The app will capture a visual representation of the environment (planes and features) of your map and save it into meta-data in the cloud.
