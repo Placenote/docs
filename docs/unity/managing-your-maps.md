@@ -11,7 +11,7 @@ Now click on the "Places" tab.
 
 If you saved some maps with shapes using the *RandomShapes* sample scene you compiled in the previous step, you will find a list of maps under the places tab that looks like this.
 
-![List of maps](../../img/unity/manage-maps-1.png)
+![List of maps](../img/unity/manage-maps-1.png)
 
 Here, you can view the mapID of each map you have created, along with its time of creation, custom name and storage size. You can also select and delete your maps whenever you need to.
 
@@ -20,4 +20,4 @@ Here, you can view the mapID of each map you have created, along with its time o
 
 If you saved some shapes with the map, you can view the content associated with a map, by clicking the "i" icon beside a map. You'll see a popup that contains the content as JSON in the **Userdata** field. The screenshot below shows an example.
 
-![Map Meta Data and Assets](../../img/unity/manage-maps-2.png)
+![Map Meta Data and Assets](../img/unity/manage-maps-2.png)
