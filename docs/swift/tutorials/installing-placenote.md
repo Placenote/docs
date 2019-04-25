@@ -1,4 +1,9 @@
-# Installing Placenote in your iOS project
+# Creating a new Placenote iOS app
+In this project we will set up a brand new ARKit app in XCode and add Placenote to the project. You can also use these instructions to add Placenote to an existing Xcode project.
+
+##
+
+
 This tutorial will guide you through an example of how to integrate Placenote SDK into a native iOS app. After you install Placenote, make sure you continue to the next tutorial where we build a simple persistent AR app using Placenote. We will use *Swift* as our language and *SceneKit* to render 3D content.
 
 In this tutorial we will show you 2 ways to add Placenote to your *Swift* project.
@@ -51,7 +56,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 
 ## Building and Running your app
-Go through the [build instructions checklist](build-instructions.md) to ensure you build your app correctly.
+Go through the [build instructions checklist](../build-instructions.md) to ensure you build your app correctly.
 
 ## Next Steps
 This process should install your ARKit project with an integrated Placenote SDK onto your device. Of course it will not do anything since we haven’t actually written any code yet but you have set up the infrastructure you need to start working with Placenote!

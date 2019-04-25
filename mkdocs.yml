@@ -28,12 +28,14 @@ pages:
   - 'Migrating to SDK 1.6.8': 'unity/tutorials/migrating-to-sdk-1-6-8.md'
 - Swift SDK:
   - 'Before you begin': 'swift/about.md'
-  - 'Try the sample app': 'swift/install-sample.md'
+  - 'Try the demo app': 'swift/install-sample.md'
+  - 'Build the SDK sample': 'swift/build-sample-app.md'
   - 'Build instructions': 'swift/build-instructions.md'
-  - 'How Placenote works': 'swift/how-placenote-works.md'
+  - 'Managing your maps': 'swift/managing-your-maps.md'
   - 'Tutorials':
-    - 'Installing Placenote': 'swift/installing-placenote.md'
-    - 'Saving and loading a map': 'swift/save-and-load-map.md'
+    - 'Introduction to Tutorials': 'swift/tutorials/introduction-to-tutorials.md'
+    - 'Installing Placenote SDK': 'swift/tutorials/installing-placenote.md'
+    - 'Saving and loading a map': 'swift/tutorials/save-and-load-map.md'
 
 theme:
   name: 'material'
@@ -41,7 +43,7 @@ theme:
   favicon: 'img/logo.png'
   palette:
     primary: 'blue'
-    accent: 'indigo'
+    accent: 'deep purple'
   feature:
     tabs: true
 
@@ -52,5 +54,18 @@ markdown_extensions:
   - codehilite
   - admonition
   - meta
-
-extra_javascript: ['javascripts/drift.js']
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
