@@ -1,12 +1,12 @@
 # Build Instructions
-Use these instructions whenever you're building a Placenote app. You can also use this as a checklist when troubleshooting any build issues you might have. If you're still having trouble building your app, [send us a message on slack](https://placenote.com/slack).
+Use this checklist whenever you are building a Placenote app. You can also use this as a checklist when troubleshooting any build issues you might face. If you're still having trouble building your app, [send us a message on slack](https://placenote.com/slack).
 
 ## Build Checklist
 
-1. Under your project’s *'Build Settings’* set *‘Enable Bitcode’* to ***‘NO’***.
-2. Like any ARKit app, make sure you have added a *‘Privacy – Camera Usage Description’* and a *‘Privacy – Location Usage Description’* to your Info.plist file. Add some text like "For AR" in the descriptions.
-3. Make sure your Deployment Target is set to iOS 11 or higher.
-4. Plug in your iOS device, select it as your target device and build. If everything goes well you should see the app running on your device. If you see the app running on your device and the camera feed starts, continue to the next section - [How Placenote Works](how-placenote-works.md).
+* Under your project’s *'Build Settings’* set *‘Enable Bitcode’* to ***‘NO’***.
+* Like any ARKit app, make sure you have added a *‘Privacy – Camera Usage Description’* and a *‘Privacy – Location Usage Description’* to your Info.plist file. Add some text like "For AR" in the descriptions.
+* Make sure your Deployment Target is set to iOS 11 or higher.
+* Plug in your iOS device, select it as your target device and build. If everything goes well you should see the app running on your device. This should function exactly like the demo app you installed in [Try the sample app](install-sample.md).
 
 ## Troubleshooting common errors
 

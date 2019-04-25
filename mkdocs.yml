@@ -6,22 +6,36 @@ pages:
 - Swift SDK Docs: 'swift/about.md'
 - Unity SDK:
   - 'Before you begin': 'unity/about.md'
-  - 'Try the sample app': 'unity/install-sample.md'
+  - 'Try the demo app': 'unity/install-sample.md'
+  - 'Build the SDK sample': 'unity/build-sample-app.md'
   - 'Build instructions': 'unity/build-instructions.md'
-  - 'How Placenote works': 'unity/how-placenote-works.md'
-  - 'Using the Simulator': 'unity/using-the-simulator.md'
-  - 'Guides':
-    - 'Create your first map': 'unity/guides/create-your-first-map.md'
-    - 'Migrating to SDK 1.6.8': 'unity/guides/migrating-to-sdk-1-6-8.md'
-
+  - 'Managing your maps': 'unity/managing-your-maps.md'
+  - 'Using the simulator': 'unity/using-the-simulator.md'
+  - 'Tutorials':
+    - 'Introduction to Tutorials': 'unity/tutorials/introduction-to-guides.md'
+    - 'Configure a new scene': 'unity/tutorials/configure-new-scene.md'
+    - 'Create your first map': 'unity/tutorials/create-your-first-map.md'
+    - 'Extending a loaded map': 'unity/tutorials/extending-a-map.md'
+    - 'Saving Meta Data': 'unity/tutorials/saving-meta-data.md'
+    - 'Integrate with ARKit': 'unity/tutorials/arkit-integration.md'
+    - 'List and search maps': 'unity/tutorials/list-and-search-maps.md'
+    - 'Spatial Capture Toolkit': 'unity/tutorials/spatial-capture.md'
+  - 'Tips and Tricks':
+    - 'Working with Point Clouds': 'unity/tips-and-tricks/working-with-pointclouds.md'
+    - 'Checking for initialization': 'unity/tips-and-tricks/checking-for-initialization.md'
+    - 'Reporting errors': 'unity/tips-and-tricks/reporting-errors.md'
+    - 'Placenote Statuses': 'unity/tips-and-tricks/placenote-statuses.md'
+  - 'Migrating to SDK 1.6.8': 'unity/tutorials/migrating-to-sdk-1-6-8.md'
 - Swift SDK:
   - 'Before you begin': 'swift/about.md'
-  - 'Try the sample app': 'swift/install-sample.md'
+  - 'Try the demo app': 'swift/install-sample.md'
+  - 'Build the SDK sample': 'swift/build-sample-app.md'
   - 'Build instructions': 'swift/build-instructions.md'
-  - 'How Placenote works': 'swift/how-placenote-works.md'
+  - 'Managing your maps': 'swift/managing-your-maps.md'
   - 'Tutorials':
-    - 'Installing Placenote': 'swift/installing-placenote.md'
-    - 'Saving and loading a map': 'swift/save-and-load-map.md'
+    - 'Introduction to Tutorials': 'swift/tutorials/introduction-to-tutorials.md'
+    - 'Installing Placenote SDK': 'swift/tutorials/installing-placenote.md'
+    - 'Saving and loading a map': 'swift/tutorials/save-and-load-map.md'
 
 theme:
   name: 'material'
@@ -29,7 +43,7 @@ theme:
   favicon: 'img/logo.png'
   palette:
     primary: 'blue'
-    accent: 'indigo'
+    accent: 'deep purple'
   feature:
     tabs: true
 
@@ -39,5 +53,19 @@ repo_url: 'https://developer.placenote.com'
 markdown_extensions:
   - codehilite
   - admonition
-
-extra_javascript: ['javascripts/drift.js']
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

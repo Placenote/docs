@@ -1,5 +1,5 @@
 # Saving and Loading a Map
-In this tutorial, we will build a simple app that will let us map an area and save a sphere persistently in the same position. Alternatively, feel free to use the sample app you built [in the previous section](install-sample.md) as a starting point for your Unity projects.
+In this tutorial, we will build a simple app that will let us map an area and save a sphere persistently in the same position. Alternatively, feel free to use the sample app you built in the [build sample app section](../install-sample.md) as a starting point for your Unity projects.
 
 ## Before you begin
 This tutorial assumes basic knowledge of ARKit and Swift development. If you're new to ARKit, here are a few resources to get you up to speed:

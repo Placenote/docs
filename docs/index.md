@@ -2,7 +2,10 @@
 # What is Placenote SDK?
 Placenote SDK lets you quickly build cloud-based AR apps that permanently save AR content in physical locations, indoors and outdoors. Placenote does not need GPS, markers or beacons for geolocation. Instead, it lets you scan any space and turn it into a **smart canvas** for positioning AR objects.
 
-Placenote integrates with ARKit on iOS devices by wrapping ARKit's tracking functionality in a simple cloud-based API that lets you build Persistent AR apps quickly and easily.
+Placenote integrates with ARKit on iOS devices by wrapping ARKit's tracking functionality in a cloud-based computer vision and machine learning API that lets you build Persistent AR apps quickly and easily.
+
+!!! note
+    Placenote does not rely on ARKit 2.0 persistence functionality. Placenote has a custom implementation of point cloud mapping and localization that provides enhanced persistence with an easier-to-use SDK and cloud backend.
 
 ## Development Platforms
 You can build Placenote apps either with Unity or Swift (iOS). Choose your development platform to get started.
@@ -42,11 +45,9 @@ We're all in this together and the Placenote community is here to help you at ev
 
 Of course, you can also just <a class="drift-open-chat" href="http://docs.drift.com/">send us a quick chat message</a> right now. If we're online, we'll reply right away. If not, make sure to **add your email** so we can get in touch with you.
 
-## Getting Started
+## Quick Start
 
-It's time to start building. To get started, choose your platform.
-
-### Choose your platform
+Want to jump right in? To get started, choose your **development platform**.
 
 [![image](img/unitylogo.png)](unity/about.md)
 [![image](img/ioslogo.png)](swift/about.md)

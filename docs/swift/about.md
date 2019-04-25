@@ -1,5 +1,5 @@
 # Placenote SDK for Swift
-This documentation will show you how to use Placenote SDK to build Native AR apps for iOS. We will use **Swift** as our primary language.
+This documentation will show you how to use Placenote SDK to build Native AR apps for iOS. 🍎 We will use **Swift** as our primary language.
 
 ## Before you begin
 
@@ -19,9 +19,5 @@ The best way to progress through these docs is as follows:
 
 | Device Type | Supported Models | OS Version |
 | ------------ | ------------- | ------------- |
-| iPad | Pro, 2017 (9.7-inch, 10.5-inch, 12.9-inch) | iOS 11 and higher |
-| iPhone | 6s, 6s Plus, 7, 7 Plus, SE, 8, 8 Plus, X | iOS 11 and higher |
-
-
-!!! warning
-    We have tested Placenote with iOS 11.x only. We do not recommend using Placenote with iOS 12 Beta.
+| iPad | Pro, 2017 (9.7-inch, 10.5-inch, 12.9-inch) | iOS 11 and 12 |
+| iPhone | 6s, 6s Plus, 7, 7 Plus, SE, 8, 8 Plus, X | iOS 11 and 12 |
