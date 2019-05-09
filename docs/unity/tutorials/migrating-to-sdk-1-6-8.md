@@ -3,7 +3,7 @@
 SDK 1.6.8 includes a change that simplifies the SDK interface for Unity developers, to make is easier to get started with Placenote development. This change is a **rare breaking change** for Unity developers and we have included documentation below on how to update your app for 1.6.8.
 
 !!! warning
-    This must only be done after you update your SDK to 1.6.8 or later. [Download the latest version of the SDK here](https://placenote.com/unitysample). You can find release notes on the [Placenote Unity github page](https://github.com/Placenote/PlacenoteSDK-Unity/releases).
+    This must only be done after you update your SDK to 1.6.8 or later. [Download the latest version of the SDK here](https://github.com/Placenote/PlacenoteSDK-Unity/releases/download/v1.6.12/PlacenoteSDK.unitypackage). You can find release notes on the <a href="https://github.com/Placenote/PlacenoteSDK-Unity/releases" target="_blank">Placenote Unity github page</a>.
 
 ## Migration Steps
 If you have built your project with an earlier version of Placenote, here are the steps to move your app to the latest Placenote version.
@@ -80,4 +80,4 @@ private void InitARFrameBuffer ()
 }
 ```
 
-And that's it! You have successfully migrated to the latest Placenote. As you can see, you do not need the above code to work with Placenote anymore. This is a major simplification of the SDK interface and although this is a breaking change, it will speed up development and reduce errors significantly when working with Placenote. Thanks for your understanding and if you have any questions regarding this change, please reach out to us on the [Placenote slack community](https://placenote.com/slack). 
+And that's it! You have successfully migrated to the latest Placenote. As you can see, you do not need the above code to work with Placenote anymore. This is a major simplification of the SDK interface and although this is a breaking change, it will speed up development and reduce errors significantly when working with Placenote. Thanks for your understanding and if you have any questions regarding this change, please reach out to us on the <a href="https://placenote.com/slack" target="_blank">Placenote slack community</a>. 

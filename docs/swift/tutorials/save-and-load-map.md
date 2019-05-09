@@ -4,8 +4,8 @@ In this tutorial, we will build a simple app that will let us map an area and sa
 ## Before you begin
 This tutorial assumes basic knowledge of ARKit and Swift development. If you're new to ARKit, here are a few resources to get you up to speed:
 
-* [Building your first ARKit app (By Apple)](https://developer.apple.com/documentation/arkit/building_your_first_ar_experience)
-* [Introduction to ARKit (first 15 minutes of the video)](https://www.youtube.com/watch?v=f3xFpRWZEz8)
+* <a href="https://developer.apple.com/documentation/arkit/building_your_first_ar_experience" target="_blank">Building your first ARKit app (By Apple)</a>
+* <a href="https://www.youtube.com/watch?v=f3xFpRWZEz8" target="_blank">Introduction to ARKit (first 15 minutes of the video)</a>
 
 ## Step 1: Create a new AR project and install Placenote
 1. Create a new empty project in Xcode.

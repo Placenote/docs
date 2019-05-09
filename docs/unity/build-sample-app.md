@@ -2,7 +2,7 @@
 Let's get started by building and running a basic Placenote sample app. In this example we will download the Unity SDK and build the **RandomShapes** scene. This sample project is identical to the demo app [we downloaded and tested in the previous step.](install-sample.md)
 
 ## Step 1: Download the SDK bundle
-Download the [latest unity package.](https://placenote.com/unitysample)
+Download the [latest unity package.](https://github.com/Placenote/PlacenoteSDK-Unity/releases/download/v1.6.12/PlacenoteSDK.unitypackage)
 
 ## Step 2: Import into Unity
 1. Create a new project in Unity and open it.
@@ -15,7 +15,7 @@ Download the [latest unity package.](https://placenote.com/unitysample)
 In the Scene Hierarchy, select PlacenoteCameraManager and add your API key to the LibPlacenote Component in the Inspector Panel.
 
 !!! tip
-    Don't have your API key? [Get it on your dev portal](https://developer.placenote.com).
+    Don't have your API key? <a href="https://developer.placenote.com" target="_blank">Get it on your dev portal</a>.
 
 ## Step 4: Build and run the project
 Read the [build instructions page](build-instructions.md) to run this project on an iOS device.

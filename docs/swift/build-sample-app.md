@@ -2,7 +2,7 @@
 Now that you have tested the demo app on your iOS device, it's time to try downloading and building the sample app yourself. This will help you verify that you can build Placenote apps using XCode onto your iOS device without any issues. Great job so far!
 
 ## Step 1: Download the Sample app bundle
-Download the [latest sample app bundle.](https://placenote.com/swiftsample)
+Download the [latest sample app bundle.](https://github.com/Placenote/PlacenoteSDK-iOS/releases/download/v1.6.12/PlacenoteSDKExample.tar.gz)
 
 ## Step 2: Open project in XCode and add your API key
 1. Open the project by opening *PlacenoteSDKExample.xcworkspace* in XCode.

@@ -2,7 +2,8 @@
 Let's get started by downloading and testing out the Placenote demo app. This will let you verify that your device meets the system requirements and will also help you understand how Placenote works. ⚙🔧
 
 ## Step 1. Download the app on your iPhone or iPad 📱
-Download the [latest demo app on your iOS device](http://placenote.com/demo). Open this link in Safari on your device and follow the instructions to install the app.
+Download the <a href="http://placenote.com/demo" target="_blank">latest demo app on your iOS device</a>
+. Open this link in Safari on your device and follow the instructions to install the app.
 
 !!! tip
     You will need to install Apple's **Testflight** app before installing this sample app. The instructions in the link above will guide you through this.

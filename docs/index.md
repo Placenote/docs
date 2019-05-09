@@ -12,7 +12,7 @@ You can build Placenote apps either with Unity or Swift (iOS). Choose your devel
 
 | Dev Platform | Language | Supported Versions | Jump to Docs |
 | ------------ | ------------- | ------------- | ------------- |
-| **Unity 3D** | C# | Unity 5.6 and later      | [Unity Docs](unity/about.md) |
+| **Unity 3D** | C# | Unity 5.6 and later      | [Unity Docs](unity/about.md)  |
 | **iOS Native** | Swift  |  XCode 9.2 and later  | [iOS Docs](swift/about.md) |
 
 ## Supported AR Devices
@@ -25,7 +25,7 @@ You can deploy Placenote on any ARKit enabled iOS device. Here is the full list 
 | iPhone | 6s, 6s Plus, 7, 7 Plus, SE, 8, 8 Plus, X and higher | iOS 11 and higher |
 
 !!! tip
-    Android support is coming soon. To keep up with our progress, [join our Slack community](https://placenote.com/slack).
+    Android support is coming soon. To keep up with our progress, <a href="https://placenote.com/slack" target="_blank">join our Slack community</a>.
 
 
 ## What Can You Build?
@@ -40,10 +40,8 @@ Placenote is mainly relevant when building apps that overlay the real world with
 
 We're all in this together and the Placenote community is here to help you at every step of the way. Here's a few ways you can get in touch with us.
 
-* Join the [Placenote Slack Community](https://placenote.com/slack)
-* Read through our [FAQs and Support Pages](https://help.placenote.com)
+* Join the <a href="https://placenote.com/slack" target="_blank">Placenote Slack community</a>
 
-Of course, you can also just <a class="drift-open-chat" href="http://docs.drift.com/">send us a quick chat message</a> right now. If we're online, we'll reply right away. If not, make sure to **add your email** so we can get in touch with you.
 
 ## Quick Start
 

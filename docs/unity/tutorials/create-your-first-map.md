@@ -38,7 +38,7 @@ private void StartARKit ()
 ```
 
 !!! note
-    We're assuming here that you have some knowledge of ARKit development in Unity and will not be going into the details of that each of the functions above does. If you're new to Unity and ARKit, [you can check out this video tutorial.](https://www.youtube.com/watch?v=S7kKQZuOdlk) to get up to speed.
+    We're assuming here that you have some knowledge of ARKit development in Unity and will not be going into the details of that each of the functions above does. If you're new to Unity and ARKit, <a href="https://www.youtube.com/watch?v=S7kKQZuOdlk" target="_blank">you can check out this video tutorial</a> to get up to speed.
 
 ## Step 2: Initialize Placenote SDK
 
@@ -69,7 +69,7 @@ public void OnStatusChange (LibPlacenote.MappingStatus prevStatus, LibPlacenote.
 ## Step 5: Create, Save and Reload a Map
 
 !!! warning
-    Placenote version 1.6.8 introduces a breaking change in the LibPlacenote SDK. We have simplified the SDK initialization process by abstracting the sendFrame() function within LibPLacenote. To learn more check the [Migrating to SDK 1.6.8 from an earlier version]() on Unity page.
+    Placenote version 1.6.8 introduces a breaking change in the LibPlacenote SDK. We have simplified the SDK initialization process by abstracting the sendFrame() function within LibPLacenote. To learn more check the [Migrating to SDK 1.6.8 from an earlier version](migrating-to-sdk-1-6-8.md) on Unity page.
 
 ### Start a mapping session
 In the example code, we start a mapping session when the *New Map* button is clicked. In the `OnNewMapClick()` function we start a placenote mapping session like this.

@@ -2,7 +2,7 @@
 
 Placenote gives you complete control over the maps you create through the online developer portal. You can use the developer portal to view and delete your maps whenever you want and it also serves as an easy way to debug your app when you start saving meta data and asset data with your maps.
 
-Let's take a look at your maps. [Visit the developer portal and sign in](https://developer.placenote.com).
+Let's take a look at your maps. <a href="https://developer.placenote.com" target="_blank">Visit the developer portal and sign in</a>.
 
 Now click on the "Places" tab.
 

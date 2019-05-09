@@ -25,4 +25,4 @@ When `StartSession(true)` is called Placenote begins a new mapping session after
 However, we now need a SaveMap button to re-save the map that is being extended. SaveMap can be called in the exact same way as before. Placenote will save the extended map as a new map and return a fresh map ID from the server.
 
 !!! question "Coding Challenge"
-    Try modifying the SaveAndLoadAMap example app to extend maps after loading and re-save them. You will need to make the `StartSession(true)` change, as well as make the Save Map button visible upon localization. If you have any doubts, feel free to [ask us a question on slack](https://placenote.com/slack).
+    Try modifying the SaveAndLoadAMap example app to extend maps after loading and re-save them. You will need to make the `StartSession(true)` change, as well as make the Save Map button visible upon localization. If you have any doubts, feel free to <a href="https://placenote.com/slack" target="_blank">ask us a question on slack</a>.

@@ -1,5 +1,9 @@
-# Using the Spatial Capture toolkit
-When creating persistent scenes in a physical location, you cannot always be there to ensure you are positioning and scaling your content accurately in the area. With the Placenote Spatial Capture toolkit, you can scan an area to capture point clouds and ARKit planes and then load this data into the Unity editor at any time as a visual reference.
+# Using Spatial Capture 
+AR development can be confusing. It can become frustrating when you finally get a scene to work but your 3d model of a cat is 300 feet tall and 100 yds away. Estimating with scale in the Unity editor will lead to time lost, as Unity itself doesn't have a toolkit for estimating scale in an AR environment. 
+
+Spatial Capture is an easy solution from Placenote that allows you to capture the real-world scale of your environment, represented by planes on flat surfaces such as your floor, counters, and furniture. The toolkit allows an easy import of environment data into the Unity editor via the cloud. Using the data allows you to experiment with game object scale in real time, all without the need of pushing a build onto your device. 
+
+Interested? Let's get started!
 
 !!! tip
     The point cloud loaded in Unity is textureless, but it is scaled accurately in meters.
@@ -9,12 +13,13 @@ The Placenote Capture app is currently in beta, you can download it here.
 
 <a href="https://placenote.com/capture"><img src="../../../img/unity/spatial-capture/spatial-capture-logo.png"></a>
 
-You will need to open the link above on your mobile device. Or visit [placenote.com/capture](https://placenote.com/capture).
+You will need to open the link above on your mobile device. Or visit [placenote.com/capture](https://placenote.com/capture). 
+
 
 ## Capturing a scan
 To start, open the Placenote Capture app to create a map. The app will capture a visual representation of the environment (planes and features) of your map and save it into meta-data in the cloud.
 
-* Once you launch the app, sign-in to the app using your developer account, if you don't have a developer account, get one at http://developer.placenote.com
+* Once you launch the app, sign-in to the app using your developer account, if you don't have a developer account, get one <a href="http://developer.placenote.com" target="_blank">here</a>.
 
 * After you are signed in, click on 'New Map' to start mapping your environment. <br /> <br /> <iframe width="560" height="315" src="https://www.youtube.com/embed/vSggFxJlX7k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

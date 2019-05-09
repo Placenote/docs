@@ -12,12 +12,12 @@ In this tutorial we will show you 2 ways to add Placenote to your *Swift* projec
 2. Install without Cocoapods
 
 !!! note
-    Currently, we do not have an installation example for *Objective C* projects but some developers have implemented this themselves. Feel free to [message us on slack to ask about it](https://placenote.com/slack).
+    Currently, we do not have an installation example for *Objective C* projects but some developers have implemented this themselves. Feel free to <a href="https://placenote.com/slack" target="_blank">message us on slack to ask about it</a>.
 
 ## Install with Cocoapods
 
 ### Configure your Pod file
-1. If you aren’t already using CocoaPods, [follow the directions here](https://guides.cocoapods.org/using/getting-started.html) to install it.
+1. If you aren’t already using CocoaPods, <a href="https://guides.cocoapods.org/using/getting-started.html" target="_blank">follow the directions here</a> to install it.
 2. In your project folder run the command  pod init to create the initial Podfile.
 3. Open your Podfile and add the line `pod 'PlacenoteSDK'` within your target’s do statement.
 4. We recommend automatically disabling bitcode by adding this to the end of your Podfile:
@@ -52,7 +52,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ## Install without Cocoapods
 
 !!! note
-    Coming soon! [Contact us on slack](https://placenote.com/slack) to find out more.
+    Coming soon! <a href="https://placenote.com/slack" target="_blank">Contact us on slack</a> to find out more.
 
 
 ## Building and Running your app

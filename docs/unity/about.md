@@ -3,8 +3,8 @@ This documentation will show you how to use Placenote SDK to build Unity AR apps
 
 ## Before you begin
 
-* [Sign in to your developer portal](https://developer.placenote.com) and **get an API key**.
-* [Join the Slack Community](https://placenote.com/slack) to get help and see what others are building.
+* <a href="https://developer.placenote.com" target="_blank">Sign in to your developer portal</a> and **get an API key**.
+* <a href="https://placenote.com/slack" target="_blank">Join the Slack Community</a> to get help and see what others are building.
 
 ## How to use this documentation
 1. Quick start: [Download and test the sample app](install-sample.md)
